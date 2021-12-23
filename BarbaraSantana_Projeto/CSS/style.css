@@ -1,0 +1,94 @@
+#logo{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -5px;
+    text-shadow: 3px 3px 6px rgb(25,25,112);
+    padding: 15px;
+}
+
+#nav-bar{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.element-nav{
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px 20px 60px;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.element-nav:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body{
+    margin: 0;
+    background-image: url('/BarbaraSantana_Projeto/image/max-delsid-8I6OcgjAOGg-unsplash.jpg');
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 0;
+}
+
+.borda {
+    margin: 5%;
+    background-color: rgba(204, 204, 204, 0.5);
+    border: 0.1em solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+p{
+    margin: 5%;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #4F4F4F;
+    font-weight: 549;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1, h2 {
+    margin: 2%;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+input[type=text], input[type=email], textarea{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 18px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 0.1em solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #4F4F4F;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+#btnEnviar {
+    background-color: #1E90FF;
+    color: rgb(255, 255, 255);
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 12px 18px;
+    margin: 10px 0;
+}
